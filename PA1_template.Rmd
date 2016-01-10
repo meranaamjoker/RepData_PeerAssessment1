@@ -1,14 +1,20 @@
 ---
 title: "Reproducible Research: Peer Assessment 1"
-output: 
-  html_document:
-    keep_md: true
+output: html_document
 ---
 
+## Assumptions
+* File name is *activity.csv* and is present in the current working directory
 
 ## Loading and preprocessing the data
+>Show any code that is needed to
+>
+>Load the data (i.e. read.csv())
+>Process/transform the data (if necessary) into a format suitable for your analysis
 
-
+```{r }
+  activity <- read.csv(file = "activity.csv")
+```
 
 ## What is mean total number of steps taken per day?
 
@@ -23,5 +29,3 @@ output:
 
 
 ## Are there differences in activity patterns between weekdays and weekends?
-
-
